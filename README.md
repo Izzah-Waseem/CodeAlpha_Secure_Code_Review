@@ -10,6 +10,7 @@ Consider the following example of a simple Flask web application in **Task 2 fil
 **Bandit:**
 
 The bandit tool has identified two potential security issues in your Flask application. Let's address these issues:
+
 **1. Hardcoded Password**
 
 Bandit flagged a hardcoded password in your login route. Hardcoding passwords is a security risk, as it can be easily exploited if the source code is exposed.
